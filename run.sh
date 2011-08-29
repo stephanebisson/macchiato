@@ -1,4 +1,4 @@
 #!/bin/bash
 
 coffee -c server.coffee
-node server.js $1
+node server.js `cd $1; pwd`
