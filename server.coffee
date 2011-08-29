@@ -46,7 +46,7 @@ server = http.createServer (request, response) ->
 			couch_proxy request, response
 		else
 			console.log 'file: ', path
-			base = '/Users/ThoughtWorks/Sites' 
+			base = process.argv[2]
 			fullpath = base + path 
 			content = fs.readFile fullpath, (error, content) ->
 				if error

@@ -1,1 +1,8 @@
 A tiny web server and couchdb proxy written in coffee script and node.js
+
+
+Run it:
+	use run.sh and specify the base web directory
+
+Example:
+	./run.sh /var/wwwroot
